@@ -1,0 +1,25 @@
+<section class="contact">
+  <h2>Contact Me</h2>
+  <form (ngSubmit)="sendMail()" #contactForm="ngForm">
+    <label>
+      Name:
+      <input type="text" name="name" [(ngModel)]="name" required>
+    </label>
+    <label>
+      Email:
+      <input type="email" name="email" [(ngModel)]="email" required>
+    </label>
+    <label>
+      Message:
+      <textarea name="message" rows="5" [(ngModel)]="message" required></textarea>
+    </label>
+    <button type="submit">Send</button>
+  </form>
+  <div class="contact-info">
+    <p>Email: gokulparthasarathy92&#64;gmail.com</p>
+    <p>
+      <a href="https://www.linkedin.com/in/gokul-partha-sarathy-a056392a1/" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/gokul-parthasarathy" target="_blank">GitHub</a>
+    </p>
+  </div>
+</section>

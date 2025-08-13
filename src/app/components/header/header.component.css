@@ -1,0 +1,48 @@
+.header {
+  background: linear-gradient(90deg, #222 58%, #00bcd4 120%);
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  font-family: 'Sans-serif', Poppins;
+}
+.header-logo:hover {
+  background: #ffffff00;
+  color: white;
+  text-shadow: 8px 6px 4px #00bcd4;
+}
+
+.header-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.header-nav a:hover,
+.header-nav a.active {
+  background: #fff;
+  color: #00bcd4;
+  box-shadow: 0 2px 16px 17px rgba(212, 0, 117, 0.37);
+}

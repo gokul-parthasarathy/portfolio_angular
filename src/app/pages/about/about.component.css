@@ -1,0 +1,28 @@
+.about {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.6;
+  text-align: center; /* Center everything */
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+}
+
+.about-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #ccc;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.about ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  text-align: left; /* Keep skills list aligned left */
+  display: inline-block; /* Prevent full width list */
+}

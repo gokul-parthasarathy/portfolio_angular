@@ -1,0 +1,28 @@
+.footer {
+  background: linear-gradient(90deg, #222 60%, #00bcd4 100%);
+  color: #fff;
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.footer-content a {
+  color: #fff;
+  text-decoration: underline;
+  margin: 0 0.5rem;
+  transition: color 0.2s;
+}
+
+.footer-content a:hover {
+  color: #00bcd4;
+}
