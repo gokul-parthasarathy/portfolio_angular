@@ -1,0 +1,11 @@
+[build]
+  command = "ng build --configuration production"
+  publish = "dist/<project-name>"
+
+[build.environment]
+  NETLIFY_SKIP_PLUGIN = "@netlify/angular-runtime"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
