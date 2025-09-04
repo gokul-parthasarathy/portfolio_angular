@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/portfolio_angular',
   supportedLocales: {
   "en-US": ""
 },

@@ -2,44 +2,44 @@
 export default {
   bootstrap: () => import('./main.server.mjs').then(m => m.default),
   inlineCriticalCss: true,
-  baseHref: '/',
+  baseHref: '/portfolio_angular/',
   locale: undefined,
   routes: [
   {
     "renderMode": 2,
-    "route": "/"
+    "route": "/portfolio_angular"
   },
   {
     "renderMode": 2,
-    "route": "/home"
+    "route": "/portfolio_angular/home"
   },
   {
     "renderMode": 2,
-    "route": "/about"
+    "route": "/portfolio_angular/about"
   },
   {
     "renderMode": 2,
-    "route": "/projects"
+    "route": "/portfolio_angular/projects"
   },
   {
     "renderMode": 2,
-    "route": "/skills"
+    "route": "/portfolio_angular/skills"
   },
   {
     "renderMode": 2,
-    "route": "/contact"
+    "route": "/portfolio_angular/contact"
   }
 ],
   entryPointToBrowserMapping: undefined,
   assets: {
-    'index.csr.html': {size: 614, hash: '935c485bfec6c92717e73c3041d3cf9af2343e7edc66b2380d09d77266f2b370', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
-    'index.server.html': {size: 1127, hash: '36ee288626f72aba379a2c2281fc4333d61b1e1968510a346c78e8201bd41a06', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
-    'home/index.html': {size: 5144, hash: 'dd9cc4570cdace27678556e690f26d9f86b463f4a8d4974136ced352f9ae92c2', text: () => import('./assets-chunks/home_index_html.mjs').then(m => m.default)},
-    'about/index.html': {size: 6765, hash: 'ed53ecfc2af0577178bacb991aaaab4c9c2b1c4233cf4ddaedd3f92b76086e06', text: () => import('./assets-chunks/about_index_html.mjs').then(m => m.default)},
-    'skills/index.html': {size: 7301, hash: '570aea3c5db6e627e6c6e2aee2ca1d7ebbdaa83b5910b46a8df7d972c327b75b', text: () => import('./assets-chunks/skills_index_html.mjs').then(m => m.default)},
-    'index.html': {size: 6970, hash: '4f8b1d621c787d605eb1eb21cfefa5e1acbe560fa83b42f3677fe01002bcd141', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
-    'contact/index.html': {size: 7955, hash: '61ec163ec47439034e467b9a307875082dd6dcb7d2d428aa8fe0704da3089596', text: () => import('./assets-chunks/contact_index_html.mjs').then(m => m.default)},
-    'projects/index.html': {size: 10045, hash: 'e80ac64afd5f211e6e2c4bff62c9692a83a2bb5751e382cfa3e27ab45127f290', text: () => import('./assets-chunks/projects_index_html.mjs').then(m => m.default)},
+    'index.csr.html': {size: 632, hash: '9050e22dbe2a285eb08acfa51960e5e46ce41eb50f988a99b3b229c63e395479', text: () => import('./assets-chunks/index_csr_html.mjs').then(m => m.default)},
+    'index.server.html': {size: 1145, hash: '27d6f2de660207416c9f6d05662ad92b0fd5a1f355314b4b3bb860bb85068daa', text: () => import('./assets-chunks/index_server_html.mjs').then(m => m.default)},
+    'home/index.html': {size: 5270, hash: 'f13b11a67e2db1f0c28e0079923cea10c3b23169e5c542a24d146c10786cc7d8', text: () => import('./assets-chunks/home_index_html.mjs').then(m => m.default)},
+    'about/index.html': {size: 6891, hash: 'eca3596910ba213294402593d1cfd7c37cbd3da1ee214603990408d52ad791bd', text: () => import('./assets-chunks/about_index_html.mjs').then(m => m.default)},
+    'projects/index.html': {size: 10171, hash: '91a13f3f8ec06b9551343ed38656198ad1a42e0bfa5841856fbb837d0ffb46a8', text: () => import('./assets-chunks/projects_index_html.mjs').then(m => m.default)},
+    'index.html': {size: 7204, hash: 'a6224d49058456f8b403d7503d83ab04d8127269e7e36100fbfa4cbbb664632a', text: () => import('./assets-chunks/index_html.mjs').then(m => m.default)},
+    'skills/index.html': {size: 7427, hash: '891d0c1bffef5415ff59ed2ac69c7708ce967f4a28a5c61f8a911199fc9889b6', text: () => import('./assets-chunks/skills_index_html.mjs').then(m => m.default)},
+    'contact/index.html': {size: 8081, hash: '1572bad89aff5a9c82e3c40dd0cfd55d38713db4ca07055e82ab13ad7d11e0cb', text: () => import('./assets-chunks/contact_index_html.mjs').then(m => m.default)},
     'styles-5INURTSO.css': {size: 0, hash: 'menYUTfbRu8', text: () => import('./assets-chunks/styles-5INURTSO_css.mjs').then(m => m.default)}
   },
 };
