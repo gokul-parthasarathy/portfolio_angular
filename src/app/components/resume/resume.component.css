@@ -1,0 +1,119 @@
+@page {
+  size: A4;
+  margin: 0.7in;
+}
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 12pt;
+  line-height: 1.7;
+  color: #222;
+  background: #f4f8fb;
+}
+.resume-container {
+  max-width: 850px;
+  margin: 32px auto;
+  background: #fff;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  border-radius: 12px;
+  padding: 38px 44px;
+  margin-bottom: 100px;
+  scroll-behavior: smooth;
+}
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 18px;
+  background: linear-gradient(90deg, #e3f2fd 0%, #fff 100%);
+  border-radius: 12px 12px 0 0;
+}
+.name {
+  font-size: 28pt;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #007bff;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+.title {
+  font-size: 16pt;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 12px;
+}
+.contact-info {
+  font-size: 13pt;
+  line-height: 1.6;
+  color: #444;
+}
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+.section {
+  margin-bottom: 28px;
+}
+.section-title {
+  font-size: 15pt;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #007bff;
+  border-bottom: 1.5px solid #007bff;
+  margin-bottom: 14px;
+  padding-bottom: 3px;
+  letter-spacing: 0.5px;
+}
+.job-title, .project-title, .education-title {
+  font-size: 13.5pt;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+.company-info, .education-details {
+  font-size: 12pt;
+  color: #555;
+  margin-bottom: 8px;
+}
+ul {
+  margin-left: 22px;
+  margin-bottom: 8px;
+}
+li {
+  margin-bottom: 5px;
+  font-size: 12.5pt;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 10px;
+}
+.skills-grid strong {
+  color: #007bff;
+}
+.education-item {
+  margin-bottom: 14px;
+}
+.summary-text {
+  text-align: justify;
+  font-size: 12.5pt;
+  line-height: 1.7;
+  color: #333;
+  background: #e3f2fd;
+  padding: 12px 18px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+@media print {
+  body {
+    background: #fff;
+  }
+  .resume-container {
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+  }
+  .header {
+    border-radius: 0;
+  }
+}
